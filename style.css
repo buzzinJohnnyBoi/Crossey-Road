@@ -1,0 +1,404 @@
+* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		overflow-x: hidden;
+	}
+
+	d {
+		display: none;
+	}
+	.circle{
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    background-color: yellow;
+    font-size:37.5px;
+    z-index: 2;
+ }
+
+	.road{
+    height: 104px;
+    width: 101%;
+    background-color: gray;
+}
+
+	.grass{
+    height: 104px;
+    width: 101%;
+    background-color: lightgreen;
+    font-size: 150px;
+    font:icon;
+    font-style: italic;
+    text-shadow: transparent;
+    text-align: center;
+}
+
+.wall {
+	width: 35px;
+	height: 52px;
+	border-left: 15px solid gray;
+	background-color: gray;
+	border-right: 2px solid white; 
+	position: absolute;
+	left: 2px;
+	color: white;
+	font-size: 50px;
+}
+
+.wall2 {
+	width: 35px;
+	height: 52px;
+	border-left: 15px solid gray;
+	background-color: gray;
+	border-right: 2px solid white; 
+	position: absolute;
+	left: 2px;
+	color: white;
+	font-size: 50px;
+}
+
+.green {
+	width: 37px;
+	height: 54px;
+	border-left: 15px solid lightgreen;
+	background-color: lightgreen;
+	border-right: 2px solid  lightgreen; 
+	position: absolute;
+}
+
+.car {
+	    height: 50px;
+       width: 20px;
+    padding-left: 80px;
+    background-color: blue;
+ }
+.car2 {
+	    height: 50px;
+       width: 80px;
+    padding-left: 20px;
+    background-color: green;
+}
+
+.car3 {
+	    height: 50px;
+    width: 80px;
+    padding-left: 20px;
+    background-color: white;
+}
+
+.car4 {
+	    height: 50px;
+       width: 20px;
+    padding-left: 80px;
+    background-color: red;
+}
+.car5 {
+	    height: 50px;
+       width: 20px;
+    padding-left: 80px;
+    background-color: white;
+}
+
+.car6 {
+	    height: 50px;
+    width: 80px;
+    padding-left: 20px;
+    background-color: white;
+}
+
+.car7 {
+	    height: 50px;
+    width: 80px;
+    padding-left: 20px;
+    background-color: white;
+}
+
+.car8 {
+	    height: 50px;
+    width: 80px;
+    padding-left: 20px;
+    background-color: aqua;
+}
+
+.car9 {
+	    height: 50px;
+    width: 80px;
+    padding-left: 20px;
+    background-color: yellow;
+}
+
+.car10 {
+	    height: 50px;
+    width: 80px;
+    padding-left: 20px;
+    background-color: black;
+}
+.semitruck {
+	    height: 50px;
+    width: 30px;
+    padding-left: 20px;
+    background-color: blue;
+}
+.trialer {
+	    height: 48px;
+    width: 50px;
+    padding-left: 100px;
+    background-color: white;
+	
+}
+.semitruck2 {
+	    height: 50px;
+    width: 30px;
+    padding-left: 20px;
+    background-color: green;
+}
+.trialer2 {
+	    height: 50px;
+    width: 50px;
+    padding-left: 100px;
+    background-color: white;
+	
+}
+
+.strip {
+	    height: 50px;
+    width: 5px;
+    background-color: black;
+}
+
+.line {
+	background-color: gray;
+	height: 0px;
+	width: 101%;
+	border-top: 2px solid yellow;
+}
+
+
+
+.tracks {
+	    height: 52px;
+    width: 101%;
+    background-color: brown;
+
+}
+
+.train {
+	    height: 50px;
+    width:750px;
+    background-color: lightblue;
+    left: -988px;
+    text-align: center;
+    font-size: 50px;
+color: 	black;
+}
+
+.train2 {
+	    height: 50px;
+    width:750px;
+    background-color: lightblue;
+    left: -988px;
+    text-align: center;
+    font-size: 50px;
+    color: 	black;
+}
+
+.train3 {
+	    height: 50px;
+    width:750px;
+    background-color: lightblue;
+    left: -988px;
+    text-align: center;
+    font-size: 50px;
+    color: 	black;
+}
+
+.train4 {
+	height: 50px;
+    width:750px;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 50px;
+    color: 	black;
+}
+
+.station {
+	    height: 52px;
+    width:100px;
+    background-color: brown;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    left: 300px;
+}
+
+.rails {
+	background-color: brown;
+	width: 100%;
+	border-bottom: 2px solid gray;
+	height: 10px;
+}
+
+.water {
+	    height: 156px;
+    width: 101%;
+    background-color: blue;
+}
+
+
+.shark {
+	background: url('shark.png');
+	background-size: 300px 104px;
+	height: 104px;
+	width: 300px;
+}
+
+p {    	font-size: 25px;
+	text-align: center;
+	color: white;
+position: absolute;
+left:20%;
+padding-top: 10px;
+z-index: 0;}
+
+h1
+{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	color: black;
+	font-size: 1em;
+	font-family: sans-serif;
+	letter-spacing: 0.2em;
+}
+h1 span {
+	opacity: 0;
+	animation: animate 1s linear forwards;
+}
+@keyframes animate {
+	0%
+	{
+		opacity: 0;
+		transform:  rotateY(90deg);
+		filter: blur(10px);
+	}
+	100% {
+		opacity: 1;
+		transform:  rotateY(0deg);
+		filter: blur(0);
+	}
+}
+h1 span:nth-child(1)
+{
+	animation-delay: 0.1s;
+}
+h1 span:nth-child(2)
+{
+	animation-delay: 0.2s;
+}
+h1 span:nth-child(3)
+{
+	animation-delay: 0.3s;
+}
+h1 span:nth-child(4)
+{
+	animation-delay: 0.4s;
+}
+h1 span:nth-child(5)
+{
+	animation-delay: 0.5s;
+}
+h1 span:nth-child(6)
+{
+	animation-delay: 0.6s;
+}
+h1 span:nth-child(7)
+{
+	animation-delay: 0.7s;
+}
+h1 span:nth-child(8)
+{
+	animation-delay: 0.8s;
+}
+
+h1 span:nth-child(9)
+{
+	animation-delay: 0.9s;
+}
+h1 span:nth-child(10)
+{
+	animation-delay: 1.1s;
+}
+h1 span:nth-child(11)
+{
+	animation-delay: 1.2s;
+}
+h1 span:nth-child(12)
+{
+	animation-delay: 1.3s;
+}
+.boot {
+	padding-top: 100px;
+}
+
+button {
+	font-size: 40px;
+	padding:20px;
+	position: absolute;
+	top: 600px;
+	right: 820px;
+}
+
+a {
+  background-color:	gainsboro; 
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  	font-size: 40px;
+	padding:20px;
+	right: 820px;
+	letter-spacing: 0.05em;
+
+}
+
+a:hover {
+  background-color: lightgray; 
+  color: black;
+border:1px solid black;
+	padding:19px;
+	cursor: context-menu;}
+
+
+.end { background: rgba(255,250,250,.5);  
+height: 100%;
+	z-index: 2;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: black;
+	font-size: 7em;
+	font-family: sans-serif;
+	letter-spacing: 0.2em;
+display: none;
+position: fixed;
+
+}
+
+
+.portal {
+	background-image: url('blueportal.png');
+	position: absolute; 
+	width: 100px; 
+	height: 100px;
+	left:1040px;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+
